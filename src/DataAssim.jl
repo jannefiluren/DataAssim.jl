@@ -1,5 +1,8 @@
 module DataAssim
 
-# package code goes here
+export timecorr_noise
+export resample
 
-end # module
+include("utils_pfilter.jl")
+
+end
